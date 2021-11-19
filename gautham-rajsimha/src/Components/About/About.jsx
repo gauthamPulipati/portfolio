@@ -99,7 +99,7 @@ function About() {
             <Grid container spacing={2} >
                 <Grid item xs={12} style={{ paddingBottom: '80px' }}>
                     <div style={styles.prename}>I'm</div>
-                    <div style={styles.name}>GAUTHAM RAJSIMHA</div>
+                    <div style={styles.name}> RAJSIMHA</div>
                     <div style={styles.name}>PULIPATI</div>
                     <div style={styles.desc}>Full Stack Developer</div>
                     <div class="social-container">
