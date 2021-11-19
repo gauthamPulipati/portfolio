@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
+import Footer from './Components/Util/Footer';
 
 
 function resolvebody(value) {
@@ -29,13 +30,12 @@ function App() {
 
   return (
     <React.Fragment>
-      {/* <div style={styles.fixnav}> */}
       <Navigation assignSelected={assignSelected} />
-      {/* </div> */}
       <div style={{ color: 'black', height: '16px', visibility: 'hidden' }}>{selectedtab}</div>
       <Container maxWidth="lg" style={{ backgroundColor: '#02ffff', backgroundImage: 'linear-gradient(to right, #027777, #02ffff, #027777)' }}>
         {resolvebody(selectedtab)}
       </Container>
+      <Footer />
     </React.Fragment>
   )
 }

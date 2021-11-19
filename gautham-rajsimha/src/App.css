@@ -57,6 +57,17 @@ a.instagram {
   color: #C13584;
 }
 
+a.linkedinlight {
+  color: #121212;
+}
+
+a.githublight {
+  color: #333;
+}
+
+a.instagramlight {
+  color: #C13584;
+}
 
 @keyframes App-logo-spin {
   from {

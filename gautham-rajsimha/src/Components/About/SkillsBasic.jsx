@@ -17,7 +17,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/java.jpg')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/java.jpg')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -27,7 +27,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/python.jpg')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/python.jpg')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -37,7 +37,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/javascript.png')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -47,7 +47,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/react.gif')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -57,7 +57,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/spring.jpg')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/spring.jpg')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -67,7 +67,7 @@ function SkillsBasic() {
         justifyContent: 'center',
         height: '300px',
         width: '90%',
-        backgroundImage: `url('images/icons/ml.jpg')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/ml.jpg')`,
         backgroundSize: '100% 100%',
         borderRadius:'2%'
     }
@@ -101,7 +101,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/java.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/java.jpg')`,
             backgroundSize: '100% 100%',
             opacity: '0.7',
             borderRadius:'2%'
@@ -122,7 +122,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/java.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/java.jpg')`,
             backgroundSize: '100% 100%',
             borderRadius:'2%'
         }
@@ -137,7 +137,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/python.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/python.jpg')`,
             backgroundSize: '100% 100%',
             opacity: '0.8',
             borderRadius:'2%'
@@ -158,7 +158,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/python.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/python.jpg')`,
             backgroundSize: '100% 100%',
             borderRadius:'2%'
         }
@@ -173,7 +173,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/javascript.png')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
             backgroundSize: '100% 100%',
             opacity: '0.8',
             borderRadius:'2%'
@@ -193,7 +193,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/javascript.png')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
             backgroundSize: '100% 100%',
             borderRadius:'2%'
         }
@@ -209,7 +209,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/react.gif')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
             backgroundSize: '100% 100%',
             opacity: '0.8',
             borderRadius:'2%'
@@ -229,7 +229,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/react.gif')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
             backgroundSize: '100% 100%',
             borderRadius:'2%'
         }
@@ -244,7 +244,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/spring.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/spring.jpg')`,
             backgroundSize: '100% 100%',
             opacity: '0.8',
             borderRadius:'2%'
@@ -264,7 +264,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/spring.jpg)`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/spring.jpg)`,
             backgroundSize: '100% 100%',
             opacity:'0',
             borderRadius:'2%'
@@ -279,7 +279,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/ml.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/ml.jpg')`,
             backgroundSize: '100% 100%',
             opacity: '0.9',
             borderRadius:'2%'
@@ -299,7 +299,7 @@ function SkillsBasic() {
             justifyContent: 'center',
             height: '300px',
             width: '90%',
-            backgroundImage: `url('images/icons/ml.jpg')`,
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/icons/ml.jpg')`,
             backgroundSize: '100% 100%',
             borderRadius:'2%'
         }

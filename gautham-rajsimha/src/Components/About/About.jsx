@@ -5,15 +5,10 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faInstagram,
-    faLinkedin,
-    faGithub
-} from "@fortawesome/free-brands-svg-icons";
 import SkillsBasic from "./SkillsBasic";
 import Trait from "../Traits";
 import WorkBasic from "./WorkBasic";
+import SocialIcons from "../Util/socialIcons";
 
 const pyth ='python.jpg'
 const styles = {
@@ -99,28 +94,15 @@ function About() {
             <Grid container spacing={2} >
                 <Grid item xs={12} style={{ paddingBottom: '80px' }}>
                     <div style={styles.prename}>I'm</div>
-                    <div style={styles.name}> RAJSIMHA</div>
+                    <div style={styles.name}>GAUTHAM RAJSIMHA</div>
                     <div style={styles.name}>PULIPATI</div>
                     <div style={styles.desc}>Full Stack Developer</div>
-                    <div class="social-container">
-                        <a href="https://www.linkedin.com/in/gauthamrajsimha/" target='_blank'
-                            className="linkedin social">
-                            <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                        </a>
-                        <a href="https://github.com/gauthamPulipati" target='_blank'
-                            className="github social">
-                            <FontAwesomeIcon icon={faGithub} size="3x" />
-                        </a>
-                        <a href="https://www.instagram.com/gautham_rajsimha/" target='_blank'
-                            className="instagram social">
-                            <FontAwesomeIcon icon={faInstagram} size="3x" />
-                        </a>
-                    </div>
+                    <SocialIcons />
                 </Grid>
                 <Grid item xs={12} md={5}
                     style={{paddingTop:'30px', backgroundColor: '#179696', backgroundImage: 'linear-gradient(to right, #027777, #02ffff)'}}
                 >
-                    <div><img src='whoami.jpg' width='100%'/></div>
+                    <div><img src={process.env.PUBLIC_URL + '/whoami.jpg'} width='100%'/></div>
                 </Grid>
                 <Grid item xs={12} md={7}
                     style={{

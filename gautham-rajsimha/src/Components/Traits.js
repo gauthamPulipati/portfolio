@@ -42,7 +42,7 @@ function Trait() {
                     <CardHeader title={<span style={styles.cardcolor}>Creative</span>} />
                     <CardMedia
                         component="img"
-                        image="creative.jpg"
+                        image={process.env.PUBLIC_URL + '/creative.jpg'}
                         alt="green iguana"
                     />
                 </Card>
@@ -54,7 +54,7 @@ function Trait() {
                 <div style={styles.creativetext}>When you go from fixed mindset to growth mindset, a new world of possibilities open up</div>
             </Grid>
             <Grid item xs={12} md={6}>
-                <img src='growth.jpeg' style={styles.growthimg} />
+                <img src={process.env.PUBLIC_URL + '/growth.jpeg'} style={styles.growthimg} />
             </Grid>
         </React.Fragment>
     )

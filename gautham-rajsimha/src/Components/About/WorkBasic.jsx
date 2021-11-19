@@ -59,7 +59,7 @@ function WorkBasic() {
                     <img
                         style={styles.image}
                         className="d-block w-100"
-                        src="/images/workbasic/travel.png"
+                        src={process.env.PUBLIC_URL + '/images/workbasic/travel.png'}
                         alt="Third slide"
                     />
 
@@ -72,7 +72,7 @@ function WorkBasic() {
                     <img
                         style={styles.image}
                         className="d-block w-100"
-                        src="/images/workbasic/getchecked.png"
+                        src={process.env.PUBLIC_URL + '/images/workbasic/getchecked.png'}
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -84,7 +84,7 @@ function WorkBasic() {
                     <img
                         style={styles.image}
                         className="d-block w-100"
-                        src="/images/workbasic/simulation.gif"
+                        src={process.env.PUBLIC_URL + '/images/workbasic/simulation.gif'}
                         alt="Second slide"
                     />
 
