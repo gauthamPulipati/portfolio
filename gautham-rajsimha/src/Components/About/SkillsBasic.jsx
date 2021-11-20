@@ -53,7 +53,7 @@ function SkillsBasic(){
     let reactimg={
         color:'white',
         border:'1px solid black',
-        backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
+        backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react1.gif')`,
         backgroundColor:'#242625',
         backgroundSize:'265px 265px',
         backgroundRepeat: 'no-repeat',
@@ -209,7 +209,7 @@ function SkillsBasic(){
         reactimg={
             color:'white',
             border:'1px solid black',
-            backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
+            backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react1.gif')`,
             backgroundColor:'#242625',
             backgroundSize:'265px 265px',
             backgroundRepeat: 'no-repeat',
@@ -233,7 +233,7 @@ function SkillsBasic(){
         reactimg={
             color:'white',
             border:'1px solid black',
-            backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react.gif')`,
+            backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/react1.gif')`,
             backgroundColor:'#242625',
             backgroundSize:'265px 265px',
             backgroundRepeat: 'no-repeat',
@@ -282,7 +282,6 @@ function SkillsBasic(){
             padding:'min(45%,150px)'
         }
     }
-
     return(
         <React.Fragment>
             <Box sx={{ flexGrow: 1}}>
