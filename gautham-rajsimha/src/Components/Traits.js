@@ -8,7 +8,7 @@ const styles = {
     creativetext: {
         display: 'flex',
         justifyContent: 'center',
-        height: '550px',
+        height: '560px',
         fontSize: '30px',
         fontFamily: 'Andale Mono, monospace',
         fontWeight: 'bold',
@@ -20,7 +20,8 @@ const styles = {
     },
     growthimg: {
         width: '100%',
-        height: '96%'
+        borderRadius: '1%',
+        height: '100%'
     },
     cardcolor: {
         display: 'flex',
@@ -50,11 +51,17 @@ function Trait() {
             <Grid item xs={12} md={6} style={{ height: '100%' }}>
                 <div style={styles.creativetext}>I dive into my inner pool of knowledge and insight to populate my mind with unique and elegant solutions</div>
             </Grid>
-            <Grid item xs={12} md={6} style={{ height: '100%' }}>
+            <Grid item xs={12} md={6} style={{ height: '100%s' }}>
                 <div style={styles.creativetext}>When you go from fixed mindset to growth mindset, a new world of possibilities open up</div>
             </Grid>
             <Grid item xs={12} md={6}>
                 <img src={process.env.PUBLIC_URL + '/growth.jpeg'} style={styles.growthimg} />
+            </Grid>
+            <Grid item xs={12} md={6}>
+                <img src={process.env.PUBLIC_URL + '/team.jpg'} style={styles.growthimg} />
+            </Grid>
+            <Grid item xs={12} md={6} style={{ height: '100%' }}>
+                <div style={styles.creativetext}>The way to achieve your own success is to be willing to help somebody else get to it first</div>
             </Grid>
         </React.Fragment>
     )
