@@ -34,7 +34,11 @@
   justify-content: right;
   padding: 25px 50px;
 }
-
+.social-container-left {
+  display: flex;
+  justify-content: left;
+  padding: 25px 50px;
+}
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -58,15 +62,15 @@ a.instagram {
 }
 
 a.linkedinlight {
-  color: #121212;
+  color: #0e76a8;
 }
 
 a.githublight {
-  color: #333;
+  color: white;
 }
 
 a.instagramlight {
-  color: #C13584;
+  color: #fb3958;
 }
 
 @keyframes App-logo-spin {

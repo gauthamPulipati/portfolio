@@ -7,19 +7,23 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function SocialIcons(props) {
-    const [linkedin,setLinkedin] = useState('linkedin')
-    const [github,setGithub] = useState('github')
-    const [instagram,setInstagram] = useState('instagram')
+    let linkedin = 'linkedin'
+    let github = 'github'
+    let instagram = 'instagram'
+    let socialcontainer ='social-container'
 
     if(props.icontype==='light'){
-        setLinkedin('linkedinlight')
-        setGithub('githublight')
-        setInstagram('instagramlight')
+        console.log('sgf')
+        linkedin= 'linkedinlight'
+        github = 'githublight'
+        instagram = 'instagramlight'
+        socialcontainer='social-container-left'
+
     }
 
     return (
         <React.Fragment >
-            <div class="social-container">
+            <div class={`${socialcontainer}`}>
                 <a href="https://www.linkedin.com/in/gauthamrajsimha/" target='_blank'
                     className={`${linkedin} social`}>
                     <FontAwesomeIcon icon={faLinkedin} size="3x" />

@@ -35,7 +35,7 @@ function App() {
       <Container maxWidth="lg" style={{ backgroundColor: '#02ffff', backgroundImage: 'linear-gradient(to right, #027777, #02ffff, #027777)' }}>
         {resolvebody(selectedtab)}
       </Container>
-      <Footer />
+      <Footer  />
     </React.Fragment>
   )
 }
