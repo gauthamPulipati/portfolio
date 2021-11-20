@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gautham-rajsimha/static/css/main.7b524e46.chunk.css",
-    "main.js": "/gautham-rajsimha/static/js/main.502f2afc.chunk.js",
-    "main.js.map": "/gautham-rajsimha/static/js/main.502f2afc.chunk.js.map",
-    "runtime-main.js": "/gautham-rajsimha/static/js/runtime-main.7255412b.js",
-    "runtime-main.js.map": "/gautham-rajsimha/static/js/runtime-main.7255412b.js.map",
-    "static/css/2.4659568d.chunk.css": "/gautham-rajsimha/static/css/2.4659568d.chunk.css",
-    "static/js/2.509a808f.chunk.js": "/gautham-rajsimha/static/js/2.509a808f.chunk.js",
-    "static/js/2.509a808f.chunk.js.map": "/gautham-rajsimha/static/js/2.509a808f.chunk.js.map",
-    "index.html": "/gautham-rajsimha/index.html",
-    "static/css/2.4659568d.chunk.css.map": "/gautham-rajsimha/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.7b524e46.chunk.css.map": "/gautham-rajsimha/static/css/main.7b524e46.chunk.css.map",
-    "static/js/2.509a808f.chunk.js.LICENSE.txt": "/gautham-rajsimha/static/js/2.509a808f.chunk.js.LICENSE.txt"
+    "main.css": "/portfolio/gautham-rajsimha/static/css/main.7b524e46.chunk.css",
+    "main.js": "/portfolio/gautham-rajsimha/static/js/main.70668249.chunk.js",
+    "main.js.map": "/portfolio/gautham-rajsimha/static/js/main.70668249.chunk.js.map",
+    "runtime-main.js": "/portfolio/gautham-rajsimha/static/js/runtime-main.61276975.js",
+    "runtime-main.js.map": "/portfolio/gautham-rajsimha/static/js/runtime-main.61276975.js.map",
+    "static/css/2.4659568d.chunk.css": "/portfolio/gautham-rajsimha/static/css/2.4659568d.chunk.css",
+    "static/js/2.509a808f.chunk.js": "/portfolio/gautham-rajsimha/static/js/2.509a808f.chunk.js",
+    "static/js/2.509a808f.chunk.js.map": "/portfolio/gautham-rajsimha/static/js/2.509a808f.chunk.js.map",
+    "index.html": "/portfolio/gautham-rajsimha/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/portfolio/gautham-rajsimha/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.7b524e46.chunk.css.map": "/portfolio/gautham-rajsimha/static/css/main.7b524e46.chunk.css.map",
+    "static/js/2.509a808f.chunk.js.LICENSE.txt": "/portfolio/gautham-rajsimha/static/js/2.509a808f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7255412b.js",
+    "static/js/runtime-main.61276975.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.509a808f.chunk.js",
     "static/css/main.7b524e46.chunk.css",
-    "static/js/main.502f2afc.chunk.js"
+    "static/js/main.70668249.chunk.js"
   ]
 }
