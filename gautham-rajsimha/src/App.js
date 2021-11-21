@@ -5,8 +5,8 @@ import React, { useState } from 'react';
 import About from './Components/About/About';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
-import Skills from './Components/Skills';
 import Footer from './Components/Util/Footer';
+import Skills from './Components/Skills/Skills';
 
 
 function resolvebody(value) {

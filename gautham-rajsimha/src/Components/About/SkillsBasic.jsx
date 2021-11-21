@@ -1,3 +1,4 @@
+import { Animation } from '@devexpress/dx-react-chart';
 import { Grid } from "@mui/material";
 import {Box } from "@mui/system";
 import React, {useState} from "react";
@@ -40,7 +41,7 @@ function SkillsBasic(){
         color:'white',
         border:'1px solid black',
         backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
-        backgroundSize:'260px 260px',
+        backgroundSize:'270px 270px',
         backgroundRepeat: 'no-repeat',
         borderRadius:'50%',
         margin: '15%'
@@ -171,8 +172,9 @@ function SkillsBasic(){
             color:'white',
             border:'1px solid black',
             backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
-            backgroundSize:'260px 260px',
+            backgroundSize:'270px 270px',
             backgroundRepeat: 'no-repeat',
+            backgroundColor:'#ebd41c',
             borderRadius:'50%',
             margin: '15%',
             opacity:'0.8'
@@ -194,7 +196,7 @@ function SkillsBasic(){
             color:'white',
             border:'1px solid black',
             backgroundImage:`url('${process.env.PUBLIC_URL}/images/icons/javascript.png')`,
-            backgroundSize:'260px 260px',
+            backgroundSize:'270px 270px',
             backgroundRepeat: 'no-repeat',
             borderRadius:'50%',
             margin: '15%'
@@ -221,8 +223,6 @@ function SkillsBasic(){
             visibility:'visible',
             padding:'min(41%,150px)',
             paddingLeft:'min(30%,140px)',
-            // paddingTop:'min(21%,140px)',
-            // paddingBottom:'61%',
             fontSize: '30px',
             fontFamily: 'Sans, Roboto, Lato',
             fontWeight: 'bold',
@@ -285,8 +285,9 @@ function SkillsBasic(){
     return(
         <React.Fragment>
             <Box sx={{ flexGrow: 1}}>
-                <Grid container spacing={2}>
+                <Grid container>
                     <Grid item xs={12} sm={6} md={4} >
+                        <Animation />
                         <div onMouseOver={()=> setHover(1)} onMouseOut={()=> setHover(-1)} style={javaimg}><div style={javatext}>JAVA</div></div>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>

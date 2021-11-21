@@ -14,34 +14,34 @@ const pyth ='python.jpg'
 const styles = {
     prename: {
         fontSize: '60px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         paddingTop: '250px',
         color: '#000101'
     },
     name: {
-        fontSize: '70px',
-        fontFamily: 'Andale Mono, monospace',
+        fontSize: '60px',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold',
         color: '#000101'
 
     },
     desc: {
         fontSize: '50px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold',
         paddingTop: '50px',
         color: '#000101'
     },
     sidedesc: {
         fontSize: '20px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold'
     },
     sidetitle: {
         display: 'flex',
         justifyContent: 'center',
         fontSize: '30px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold'
     },
     whatdotitle: {
@@ -50,7 +50,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         fontSize: '50px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold',
         height: 'auto'
     },
@@ -64,7 +64,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'right',
         fontSize: '20px',
-        fontFamily: 'Andale Mono, monospace',
+        fontFamily: 'Helvetica, sans-serif',
         fontWeight: 'bold'
     },
     skillsimgs:{
@@ -92,11 +92,17 @@ function About() {
     return (
         <Box sx={{ flexGrow: 1, color: 'black' }}>
             <Grid container spacing={2} >
-                <Grid item xs={12} style={{ paddingBottom: '80px' }}>
+                <Grid item xs={12} sm={6} md={8}>
                     <div style={styles.prename}>I'm</div>
                     <div style={styles.name}>GAUTHAM RAJSIMHA</div>
                     <div style={styles.name}>PULIPATI</div>
                     <div style={styles.desc}>Full Stack Developer</div>
+                    
+                </Grid>
+                <Grid style={{display:'flex', alignItems:'center'}} item xs={12} sm={6} md={4}>
+                    <div ><img src={process.env.PUBLIC_URL + '/me.png'} width="100%" height="100%" /></div>
+                </Grid>
+                <Grid item xs={12}>
                     <SocialIcons />
                 </Grid>
                 <Grid item xs={12} md={5}

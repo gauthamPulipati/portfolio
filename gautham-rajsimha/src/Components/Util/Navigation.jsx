@@ -19,15 +19,7 @@ const styles = {
         color: 'white',
         fontWeight: 'bold',
         fontSize: '18px',
-        fontFamily: 'Andale Mono, monospace'
-    },
-    tabstyleright: {
-        color: 'white',
-        fontWeight: 'bold',
-        fontSize: '18px',
-        fontFamily: 'Andale Mono, monospace',
-        display:'flex',
-        justifyContent:'right'
+        fontFamily: 'Marker Felt, fantasy'
     }
 }
 
