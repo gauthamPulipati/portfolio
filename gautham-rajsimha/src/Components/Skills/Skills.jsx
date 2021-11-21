@@ -28,8 +28,9 @@ function Skills() {
           <Legend />
           <Animation />
         </Chart>
-  
+
       </Paper>
+      <div style={{color:'red', fontSize:'70px', paddingTop:'100px'}}><b>Page under construction</b></div>
     </React.Fragment>
 
   )
