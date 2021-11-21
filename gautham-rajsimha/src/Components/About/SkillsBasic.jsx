@@ -1,4 +1,3 @@
-import { Animation } from '@devexpress/dx-react-chart';
 import { Grid } from "@mui/material";
 import {Box } from "@mui/system";
 import React, {useState} from "react";
@@ -287,7 +286,6 @@ function SkillsBasic(){
             <Box sx={{ flexGrow: 1}}>
                 <Grid container>
                     <Grid item xs={12} sm={6} md={4} >
-                        <Animation />
                         <div onMouseOver={()=> setHover(1)} onMouseOut={()=> setHover(-1)} style={javaimg}><div style={javatext}>JAVA</div></div>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
